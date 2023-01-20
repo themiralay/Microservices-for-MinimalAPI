@@ -23,7 +23,7 @@ app.UseSwaggerUI();
 
 app.MapPost("/login", [AllowAnonymous] (UserValidationRequestModel request, HttpContext http, ITokenService tokenService) =>
 {
-    if (request is UserValidationRequestModel { UserName: "gami", Password: "gami123" })
+    if (request is UserValidationRequestModel { UserName: "crypto", Password: "tyler" })
     {
         var token = tokenService.BuildToken(builder.Configuration["Jwt:Key"],
                                             builder.Configuration["Jwt:Issuer"],
