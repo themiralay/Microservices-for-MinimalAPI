@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+6F6VoJlU+u2oZpdt4UsZZrFU1jEbxvhn1MIxHPCGec=",
+  "Source": "WalletService",
+  "BasePath": "_content/WalletService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
